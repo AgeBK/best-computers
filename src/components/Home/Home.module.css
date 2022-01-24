@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+}
+
+.link {
+}
