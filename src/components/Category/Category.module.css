@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .productLink {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .productInner {
+    border: 1px solid #f3f3f3;
+    padding: 0.8rem;
+    border-bottom: 0;
+  }
+  
+  .product:nth-child(odd) .productInner {
+    border-right: 0;
+  }
+  
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .img {
+    width: 170px;
+  }
+  
+  .price {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
+  }
+  
+  .sale {
+    background-color: red;
+    color: #fff;
+    padding: 0.2rem;
+    display: inline-block;
+    font-size: 0.7rem;
+    margin-left: 0.3rem;
+    border-radius: 0.2rem;
+  }
+  
+  .desc {
+    margin-top: 0.5rem;
+  }
+  .desc:hover {
+    text-decoration: underline;
+  }
+  
+  .cart {
+    background-color: #3ca400;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.7rem;
+    cursor: pointer;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0);
+  }
+  
+  .cart:hover {
+    background-color: #338b00;
+  }
+  
+  .btn {
+    color: #fff;
+    background-color: #3ca400;
+    border-color: #3ca400;
+    font-family: LatoBold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 700;
+    text-shadow: 0 -2px 0 #338b00;
+  }
+  
+  .dollarSign {
+    font-size: 1rem;
+    vertical-align: top;
+  }
+  
+  .sort {
+    margin-right: 0.5rem;
+  }
+  
+  @media screen and (min-width: 472px) {
+    .product {
+      flex: 0 1 50%;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .product {
+      flex: 0 1 25%;
+    }
+  }
+  

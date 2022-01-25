@@ -502,7 +502,7 @@
     },
     {
       "productId": "HT-1055",
-      "category": "Multifunction Printers",
+      "category": "Printers",
       "mainCategory": "Printers & Scanners",
       "taxTarifCode": "1",
       "supplierName": "Printer for All",
@@ -524,7 +524,7 @@
     },
     {
       "productId": "HT-1056",
-      "category": "Multifunction Printers",
+      "category": "Printers",
       "mainCategory": "Printers & Scanners",
       "taxTarifCode": "1",
       "supplierName": "Printer for All",
@@ -929,7 +929,7 @@
     },
     {
       "productId": "HT-1085",
-      "category": "Multifunction Printers",
+      "category": "Printers",
       "mainCategory": "Printers & Scanners",
       "taxTarifCode": "1",
       "supplierName": "Alpha Printers",
@@ -2273,7 +2273,7 @@
     {
       "productId": "HT-9999",
       "category": "Tablets",
-      "mainCategory": "Smartphones & Tablets",
+      "mainCategory": "Smartphones and Tablets",
       "taxTarifCode": "1",
       "supplierName": "Titanium",
       "weightMeasure": 3.8,
@@ -2293,8 +2293,8 @@
     },
     {
       "productId": "HT-9998",
-      "category": "Smartphones and Tablets",
-      "mainCategory": "Smartphones & Tablets",
+      "category": "Smartphones & Tablets",
+      "mainCategory": "Smartphones and Tablets",
       "taxTarifCode": "1",
       "supplierName": "Titanium",
       "weightMeasure": 0.75,
@@ -2314,8 +2314,8 @@
     },
     {
       "productId": "HT-9997",
-      "category": "Smartphones and Tablets",
-      "mainCategory": "Smartphones & Tablets",
+      "category": "Smartphones & Tablets",
+      "mainCategory": "Smartphones and Tablets",
       "taxTarifCode": "1",
       "supplierName": "Titanium",
       "weightMeasure": 3.8,
@@ -2336,7 +2336,7 @@
     {
       "productId": "HT-9996",
       "category": "Accessories",
-      "mainCategory": "Smartphones & Tablets",
+      "mainCategory": "Smartphones and Tablets",
       "taxTarifCode": "1",
       "supplierName": "Titanium",
       "weightMeasure": 0.03,
@@ -2358,7 +2358,7 @@
     {
       "productId": "HT-9995",
       "category": "Accessories",
-      "mainCategory": "Smartphones & Tablets",
+      "mainCategory": "Smartphones and Tablets",
       "taxTarifCode": "1",
       "supplierName": "Titanium",
       "weightMeasure": 0.02,
@@ -2399,8 +2399,8 @@
     },
     {
       "productId": "HT-9993",
-      "category": "Smartphones and Tablets",
-      "mainCategory": "Smartphones & Tablets",
+      "category": "Smartphones & Tablets",
+      "mainCategory": "Smartphones and Tablets",
       "taxTarifCode": "1",
       "supplierName": "Ultrasonic United",
       "weightMeasure": 3.8,
@@ -2421,8 +2421,8 @@
     },
     {
       "productId": "HT-9992",
-      "category": "Smartphones and Tablets",
-      "mainCategory": "Smartphones & Tablets",
+      "category": "Smartphones & Tablets",
+      "mainCategory": "Smartphones and Tablets",
       "taxTarifCode": "1",
       "supplierName": "Ultrasonic United",
       "weightMeasure": 0.75,
@@ -2443,7 +2443,7 @@
     {
       "productId": "HT-9991",
       "category": "Accessories",
-      "mainCategory": "Smartphones & Tablets",
+      "mainCategory": "Smartphones and Tablets",
       "taxTarifCode": "1",
       "supplierName": "Ultrasonic United",
       "weightMeasure": 0.02,
@@ -2484,8 +2484,8 @@
     },
     {
       "productId": "HT-1252",
-      "category": "Smartphones and Tablets",
-      "mainCategory": "Smartphones & Tablets",
+      "category": "Smartphones & Tablets",
+      "mainCategory": "Smartphones and Tablets",
       "taxTarifCode": "1",
       "supplierName": "Ultrasonic United",
       "weightMeasure": 0.75,
@@ -2569,8 +2569,8 @@
     },
     {
       "productId": "HT-1256",
-      "category": "Smartphones and Tablets",
-      "mainCategory": "Smartphones & Tablets",
+      "category": "Smartphones & Tablets",
+      "mainCategory": "Smartphones and Tablets",
       "taxTarifCode": "1",
       "supplierName": "Ultrasonic United",
       "weightMeasure": 0.75,
@@ -2591,8 +2591,8 @@
     },
     {
       "productId": "HT-1257",
-      "category": "Smartphones and Tablets",
-      "mainCategory": "Smartphones & Tablets",
+      "category": "Smartphones & Tablets",
+      "mainCategory": "Smartphones and Tablets",
       "taxTarifCode": "1",
       "supplierName": "Ultrasonic United",
       "weightMeasure": 2.8,
@@ -2612,8 +2612,8 @@
     },
     {
       "productId": "HT-1258",
-      "category": "Smartphones and Tablets",
-      "mainCategory": "Smartphones & Tablets",
+      "category": "Smartphones & Tablets",
+      "mainCategory": "Smartphones and Tablets",
       "taxTarifCode": "1",
       "supplierName": "Ultrasonic United",
       "weightMeasure": 2.5,
@@ -2671,7 +2671,7 @@
         "Keyboards": 4,
         "Laptops": 11,
         "Printers": 9,
-        "Smartphones and Tablets": 9,
+        "Smartphones & Tablets": 9,
         "Mice": 7,
         "Computer Accessories": 8,
         "Graphics Card": 4,
@@ -2726,7 +2726,7 @@
             "data": 9
           },
           {
-            "text": "Smartphones and Tablets",
+            "text": "Smartphones & Tablets",
             "data": 9
           },
           {

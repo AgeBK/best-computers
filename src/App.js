@@ -1,4 +1,6 @@
 import { Route, Routes, Navigate, useRoutes } from "react-router-dom";
+import MainContainer from "./containers/MainContainer";
+
 import Home from "./components/Home";
 import Category from "./components/Category";
 
@@ -14,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default MainContainer(App);

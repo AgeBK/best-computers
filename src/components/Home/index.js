@@ -3,63 +3,40 @@ import React, { useState, useContext, useEffect } from "react";
 import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
 
+let cats = {};
+let products = [];
+
 const Home = () => {
-  const [category, setProduct] = useState([]);
+  // const [category, setProduct] = useState([]);
   const [categories, setCategories] = useState({});
 
   useEffect(() => {
-    const fetchData = async () => {
-      const res = await fetch("./../data.json");
-      const { ProductCollection } = await res.json();
-      // console.log(ProductCollection);
+    if (
+      localStorage.getItem("BestCompsProducts") === null ||
+      localStorage.getItem("BestCompsCats") === null
+    ) {
+      const fetchData = async () => {
+        const res = await fetch("./../data.json");
+        const { ProductCollection: products } = await res.json();
+        // console.log(ProductCollection);
 
-      let cats = ProductCollection.reduce(
-        (acc, { image, category }) =>
-          !acc[category] ? { ...acc, [category]: image } : acc,
-        {}
-      );
-      setProduct(ProductCollection);
+        cats = products.reduce(
+          (acc, { image, category }) =>
+            !acc[category] ? { ...acc, [category]: image } : acc,
+          {}
+        );
+        localStorage.setItem("BestCompsProducts", JSON.stringify(products));
+        localStorage.setItem("BestCompsCats", JSON.stringify(cats));
+        setCategories(cats);
+        // setProduct(ProductCollection);
+      };
+      fetchData();
+    } else {
+      products = JSON.parse(localStorage.getItem("BestCompsProducts"));
+      cats = JSON.parse(localStorage.getItem("BestCompsCats"));
       setCategories(cats);
-    };
-    fetchData();
+    }
   }, []);
-
-  // console.log(categories);
-
-  // console.log(countedNames);
-  // console.log(test);
-
-  // I needed to total the dog’s ages only
-
-  const data = [
-    {
-      id: 10,
-      name: "Poe Dameron",
-      years: 14,
-    },
-    {
-      id: 2,
-      name: "Temmin 'Snap' Wexley",
-      years: 30,
-    },
-    {
-      id: 41,
-      name: "Tallissan Lintra",
-      years: 16,
-    },
-    {
-      id: 99,
-      name: "Ello Asty",
-      years: 22,
-    },
-  ];
-
-  const test = data.reduce(
-    (acc, val) => (val.years > acc ? (acc += val.age * 7) : acc),
-    0
-  );
-
-  console.log(test);
 
   return (
     <div className={styles.container}>
